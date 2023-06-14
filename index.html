@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rent A Car - Acar</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+  <style>
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    
+    .logo img {
+      width: 30px;
+      height: auto;
+      margin-right: 10px;
+    }
+
+    body {
+      background-color: #fff;
+      color: #000;
+      font-family: "Arial", sans-serif;
+    }
+    .navbar {
+      background-color: #fff !important;
+    }
+    .navbar-brand {
+      color: #000 !important;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .navbar-nav .nav-link {
+      color: #000 !important;
+    }
+    .jumbotron {
+      background-color: #f8f8f8;
+      text-align: center;
+      padding: 80px 0;
+    }
+    .jumbotron h1 {
+      color: #000;
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    .jumbotron p {
+      color: #000;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    .btn-primary {
+      background-color: #000;
+      border-color: #000;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 10px 20px;
+      margin-top: 30px;
+      text-transform: uppercase;
+    }
+    .btn-primary:hover {
+      background-color: #222;
+      border-color: #222;
+    }
+    #about h2, #about p {
+      color: #000;
+      text-align: center;
+    }
+    .card {
+      background-color: #fff;
+      border-color: #000;
+      color: #000;
+      margin-bottom: 30px;
+    }
+    .card-title {
+      color: #000;
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    .card-text {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .list-group-item a {
+      color: #000;
+    }
+    .list-group-item a:hover {
+      color: #222;
+    }
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
+  justify-items: center; 
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+  </style><body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Rent A Car - Acar</a>
+	<img src="logo.jpg" alt="logo" style="width:40px;height:40px;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="jumbotron">
+    <div class="container text-center">
+      <h1>Vozite se z nami!</h1>
+	<div class="gallery">
+  <img src="indexx.jpg" alt="Photo 1">
+  <img src="m4.jpg" alt="Photo 2">
+  <img src="rs6.jpg" alt="Photo 3">
+  <img src="gle.jpg" alt="Photo 4">
+  <img src="box.jpg" alt="Photo 5">
+  <img src="q7.jpg" alt="Photo 6">
+</div>
+
+      <p><b>Najvecja ponudba luksuznih avzomobil po najnizjih cenah.</p>
+      <a class="btn btn-primary btn-lg" href="services.html" role="button">Izvedite vec</a>
+    </div>
+  </header>
+
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>O Acar-u</h2>
+          <p>Nas rent a car posluje ze dolg niz let in smo eden najbolj znanih rent a carjev v sloveniji in v evropi. Nudimo vam usluge izposoje raznih avtomobilov, kombijev in kamionov. Prav tako vam nudimo lizing opcije za nakup nasih avtomobilov in pa opcijo da vas poberemo na letaliscu.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="rent.jpg" alt="rentacar" style="width:400px;height:200px;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">USLUGE KI JIH NUDIMO</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="rent2.jpg" alt="rentacar" style="width:348px;height:150px;">
+            <div class="card-body">
+              <h5 class="card-title">RENT A CAR</h5>
+              <p class="card-text">Opcija imenovana "Rent a car", vam nudi izposojo avtomobila za uro, dan ali pa celo za teden. Vec o tem si lahko ogledate v meniju avtomobilov.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="lizing.png" alt="lizing" style="width:348px;height:150px;">
+            <div class="card-body">
+              <h5 class="card-title">LEASING AVTOMOBILOV</h5>
+              <p class="card-text">Opcija, ki se imenuje "Leasing avtomobilov" vam prinasa, da z mesecnim placilom na dolgi rok, kupite auto, ki ga zelite.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="airport.jpg" alt="airport" style="width:348px;height:150px;">
+            <div class="card-body">
+              <h5 class="card-title">PREVZEM NA LETALISCU</h5>
+              <p class="card-text">Opcija, ki jo prav tako nudimo in se imenuje "Prevzem na letaliscu", vam ponuja prevzem z soferjem ali brez z autom po vasi izbiri.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="text-center">VRSTE AVTOMOBILOV ZA IZPOSOJO</h3>
+          <ul class="list-group">
+            <li 	<li class="nav-item">
+          <a class="nav-link" href="luksuzniavtomobili.html">Luksuzni avotomobili</a>
+        </li></li>
+ 	 <li 	<li class="nav-item">
+          <a class="nav-link" href="karavani.html">Karavani</a>
+        </li></li>
+  	<li 	<li class="nav-item">
+          <a class="nav-link" href="SUV-ji.html">SUV-ji</a>
+        </li></li>
+ 	<li 	<li class="nav-item">
+          <a class="nav-link" href="kombiji.html">Kombiji</a>
+        </li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
